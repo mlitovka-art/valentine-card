@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Валентинка</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- СЦЕНА 1: КОНВЕРТ -->
+<div class="scene1" id="scene1">
+    <div class="envelope">
+        <div class="flap" id="flap"></div>
+        <div class="seal" id="seal">❤</div>
+    </div>
+</div>
+
+<!-- СЦЕНА 2: ГЛАВНАЯ -->
+<div class="scene2 hidden" id="scene2">
+    <div class="particles" id="particles"></div>
+    <img src="images/wife.png" class="wife-img">
+    <button class="love-btn" id="loveBtn">Поздравить Катюшку</button>
+    <h1 class="love-text hidden" id="loveText">Катюшка, люблю тебя!</h1>
+</div>
+
+<audio id="breakSound" src="audio/break.mp3"></audio>
+<audio id="music" src="audio/music.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
